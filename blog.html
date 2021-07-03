@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Noob_Entity</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="closeMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="openMenu()"></i>	
+		</nav>
+	  <h1>Our Certificate & Online Programs For 2021</h1>
+	</section>
+
+<!---------- Blog page content ----------->
+
+<section class="blog-content">
+	<div class="row">
+		<div class="blog-left">
+		<img src="images/certificate.jpg">
+		<h2>Our Certificate & Online Programs For 2021</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		<br>
+		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
+		<br>
+		<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+		<br>
+		<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+		<br>
+		<p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.</p>
+
+    <div class="comment-box">
+    	<h3>Leave a comment</h3>
+    	<form class="comment-form">
+    		<input type="text" placeholder="Enter Name">
+    		<input type="email" placeholder="Enter Email">
+    		<textarea rows="5" placeholder="Your Comment"></textarea>
+    		<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    	</form>
+    </div>
+
+
+
+
+	</div>
+	<div class="blog-right">
+		<h3>Post Categories</h3>
+		<div>
+			<span>Business Analutics</span>
+			<span>11</span>
+		</div>
+		<div>
+			<span>Data Science</span>
+			<span>28</span>
+		</div>
+		<div>
+			<span>Machine Learning</span>
+			<span>16</span>
+		</div>
+		<div>
+			<span>Computer Science</span>
+			<span>34</span>
+		</div>
+		<div>
+			<span>AutoCAD</span>
+			<span>32</span>
+		</div>
+		<div>
+			<span>Journalism</span>
+			<span>23</span>
+		</div>
+		<div>
+			<span>Commerce</span>
+			<span>25</span>
+		</div>
+	</div>
+</div>
+</section>
+
+
+<!---------- Footer----------->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit amet, sed do eiusmod consectetur adipiscing elit, sed do eiusmod?<br>—Lorem ipsumdolor sit amet, consectetur adipiscing elit.</p>
+	<div class="icons">
+		<a href="https://www.facebook.com/zahidhasan.shanto.733"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com/i_m_shanto_/"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com/in/zahid-hasan-1a2650193"><i class="fa fa-linkedin"></i></a>
+		<a href="https://www.youtube.com/channel/UC46UQ_Z08JrNFtj4WJiRwXQ"><i class="fa fa-youtube"></i></a>	
+	</div>
+	<p>Copyright ©2021 All rights reserved to <a href="https://www.facebook.com/zahidhasan.shanto.733">Zahid Hasan</p></a>
+</section>
+
+
+
+<!-----------JavaScript for Toggle Menu--------->
+
+<script>
+function openMenu() {
+  document.getElementById("navLinks").style.right = "0";
+}
+
+function closeMenu() {
+  document.getElementById("navLinks").style.right = "-200px";
+}
+</script>
+
+
+
+</body>
+</html>
